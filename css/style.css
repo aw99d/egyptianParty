@@ -1,0 +1,224 @@
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.home{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(231, 0, 0, 0.4) , rgba(255, 0, 0, 0.4)), url(../images/events-heavenly-header.jpg);
+
+
+}
+
+
+.title-home{
+    font-size: 4.125rem;
+}
+
+
+.navbarside{
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 99999;
+    left: -250px;
+    
+    
+}
+
+.nav ul li {
+    font-size: 30px;
+    
+}
+
+
+.nav ul li a {
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.nav ul li a:hover{
+    color: red;
+}
+
+.open-icon{
+ 
+    left: 10px;
+    top: 330px;
+    color: rgb(22, 1, 1) !important;
+    position: fixed;
+    
+}
+
+
+
+.icon-x{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.icon-x:hover{
+    color: red !important;
+}
+
+
+.singer{
+    margin-block: 8em!important;
+    }
+    .toggle{
+        background-color: rgba(214, 46, 52, 0.677);
+        padding:0.3em;
+        cursor: pointer;
+        color: white;
+        margin: 0;
+    }
+    .singer div{
+        background-color:  #ccc;
+        padding:0.8em;
+        display: none;
+    }
+    .singer .one{
+        display:block;
+    }
+
+
+
+
+    .details{
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(231, 0, 0, 0.4) , rgba(255, 0, 0, 0.4)), url(../images/invitation-2508607__340.jpg);
+    
+    
+    }
+
+
+    .inner{
+
+        border: 2px solid white;
+        padding-inline: 30px;
+        padding-block: 40px;
+    }
+
+
+    #contact {
+        padding-block: 3.75rem;
+    }
+    
+    #contact .container .title h2 {
+        font-size: 2.1875rem;
+        font-weight: 700;
+        color: #444444;
+    }
+    
+    #contact .container .title p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #444444;
+    }
+    
+    #contact .container .title {
+        padding-bottom: 1rem;
+    }
+    
+    #contact .container .contact-info h3{
+        color: #444444;
+        font-size: 1.5625rem;
+        font-weight: 600;
+    }
+    
+    #contact .container .contact-info p{
+        color: #777777;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #contact .container .contact-info .info i {
+        color: #d62e33;
+        padding-right: .625rem;
+    }
+    
+    #contact .container .contact-info .social-media div {
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #999;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-right: .625rem;
+    }
+    
+    #contact .container .contact-info .social-media div i {
+        color: #999;
+        
+    }
+    
+    #contact .container .contact-info .social-media div:hover {
+        border-color:#d62e33;
+        background-color: #d62e33;
+    }
+    
+    #contact .container .contact-info .social-media div:hover i{
+        color: #fff;
+    }
+    
+    #contact .form-control::-webkit-input-placeholder {
+        color: #999 !important;
+    }
+    
+    #contact .form-control::-moz-placeholder {
+        color: #999 !important;
+    }
+    
+    #contact .form-control:-ms-input-placeholder {
+        color: #999 !important;
+    }
+    
+    #contact .form-control::-ms-input-placeholder {
+        color: #999 !important;
+    }
+    
+    #contact .form-control::placeholder {
+        color: #999 !important;
+    }
+    
+    #contact .btn {
+        background-color: #d62e33;
+        color: #fff;
+    }
+    
+    #contact .btn:hover {
+        background-color: #e2242a;
+    }
+    
+    form p {
+        font-size: 1.125rem;
+        color: #444444;
+    }
+    
+    form p span{
+        color: #d62e33;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
